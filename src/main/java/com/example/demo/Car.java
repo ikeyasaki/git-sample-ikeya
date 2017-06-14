@@ -4,6 +4,11 @@ public class Car {
 	private int speed;
 	private String name;
 
+	/**
+	 * タイヤ.
+	 */
+	private int tires;
+
 	public Car() {
 
 	}
@@ -22,5 +27,13 @@ public class Car {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public int getTires() {
+		return tires;
+	}
+
+	public void setTires(int tires) {
+		this.tires = tires;
 	}
 }
