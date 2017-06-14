@@ -3,6 +3,7 @@ package com.example.demo;
 public class Car {
 	private int speed;
 	private String name;
+	private String pures;
 
 	/**
 	 * タイヤ.
@@ -36,4 +37,13 @@ public class Car {
 	public void setTires(int tires) {
 		this.tires = tires;
 	}
+
+	public String getPures() {
+		return pures;
+	}
+
+	public void setPures(String pures) {
+		this.pures = pures;
+	}
+
 }
